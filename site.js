@@ -14,3 +14,6 @@ function hello(hours){
 }
 
 message.textContent = hello(hours)
+
+const key = "It's a secret to everybody."
+localStorage.setItem(key, 'And it shall remain that way.')
